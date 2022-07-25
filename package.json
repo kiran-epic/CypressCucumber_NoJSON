@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Epic!",
+  "main": "",
+  "scripts": {
+    "cypress-report": "node cypress/reports/cucumber-html-report.js"
+  },
+  "private": true,
+  "author": "Epic! Creations Inc.",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "cypress": "^10.3.0",
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "multiple-cucumber-html-reporter": "^1.21.4",
+    "typescript": "4.7.4"
+  }
+}
